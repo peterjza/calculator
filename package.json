@@ -1,0 +1,37 @@
+{
+  "name": "equal-experts-nonmusical-frothier-baritone-47669d526bfd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack serve --open",
+    "build": "npx webpack",
+    "test": "jest --runInBand",
+    "test-watch": "jest --runInBand --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.3.0",
+    "@types/jest": "^29.5.11",
+    "css-loader": "^6.9.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.0.0",
+    "style-loader": "^3.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
